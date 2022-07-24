@@ -1,4 +1,4 @@
-pyrogram==1.2.4
+pyrogram
 TgCrypto
 motor
 aiofiles
