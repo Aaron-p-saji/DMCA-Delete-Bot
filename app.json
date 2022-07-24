@@ -7,9 +7,9 @@
         "delete",
         "bot"
     ],
-    "repository": "https://github.com/Discovery-Projects/DMCA-Delete-Bot",
-    "website": "https://telegram.dog/AbirHasan2005",
-    "success_url": "https://t.me/Discovery_Updates",
+    "repository": "https://github.com/Aaron-p-saji/DMCA-Delete-Bot",
+    "website": "https://telegram.me/gDrive_linkz",
+    "success_url": "https://telegram.me/gDrive_linkz",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
