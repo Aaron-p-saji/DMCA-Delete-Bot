@@ -13,13 +13,14 @@ from pyrogram.errors import UserNotParticipant, PeerIdInvalid, ChannelPrivate
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
 
 Bot = Client(
-    session_name=Config.TG_BOT_SESSION,
+    name=pyrogram,
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     bot_token=Config.BOT_TOKEN
 )
 User = Client(
-    session_name=Config.TG_USER_SESSION,
+    name='user_engine',
+    session_string=Config.TG_USER_SESSION,
     api_id=Config.API_ID,
     api_hash=Config.API_HASH
 )
