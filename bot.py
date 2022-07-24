@@ -13,7 +13,7 @@ from pyrogram.errors import UserNotParticipant, PeerIdInvalid, ChannelPrivate
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
 
 Bot = Client(
-    name=pyrogram,
+    name='pyrogram',
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     bot_token=Config.BOT_TOKEN
